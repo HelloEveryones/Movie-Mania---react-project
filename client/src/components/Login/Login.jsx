@@ -1,6 +1,8 @@
+import styles from "./login.module.css"
+
 export default function Login() {
     return (
-        <div className="login">
+        <div className={styles["login"]}>
             <h3>Login</h3>
             <form>
                 <div className="field">

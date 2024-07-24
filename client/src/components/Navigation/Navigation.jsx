@@ -1,7 +1,8 @@
+import styles from "./navigation.module.css"
 export default function Navigation(){
     return (
         <header>
-        <div className="nav">
+        <div className={styles["nav"]}>
             <div class="logo">
                 <a href="">Movie <span>Mania</span></a>
             </div>

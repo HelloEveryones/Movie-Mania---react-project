@@ -1,6 +1,9 @@
+import styles from "./addMovie.module.css"
+
+
 export default function AddMovie() {
     return (
-        <div className="add-movie">
+        <div className={styles["add-movie"]}>
             <h3>Add Movie</h3>
             <form>
                 <div className="field">

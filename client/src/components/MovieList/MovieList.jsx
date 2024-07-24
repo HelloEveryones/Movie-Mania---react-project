@@ -1,6 +1,7 @@
+import styles from "./movieList.module.css"
 export default function MovieList(){
     return (
-        <div className="movie-list">
+        <div className={styles["movie-list"]}>
         <h1>All Movies</h1>
         <ul>
             <li>

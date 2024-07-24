@@ -1,8 +1,8 @@
-
+import styles from "./editMovie.module.css"
 
 export default function Edit() {
     return (
-        <div className="edit-movie">
+        <div className={styles["edit-movie"]}>
             <h3>Edit Movie</h3>
             <form>
                 <div className="field">

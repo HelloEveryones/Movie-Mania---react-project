@@ -1,6 +1,8 @@
+import styles from "./details.module.css"
+
 export default function Details(){
     return (
-        <div className="details">
+        <div className={styles["details"]}>
         <h3>Details</h3>
         <article>
             <h4>Star Wars</h4>
